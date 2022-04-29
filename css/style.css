@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.logo img{
+    width: 211px;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sign-in .button{
+    border: none;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 180px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: 2px solid #3788bf;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.hero {
+    width: 60%;
+    margin: auto;
+}
+
+section {
+    padding: 3rem 0 4rem 0;
+}
+
+.big-txt {
+    font-size: 3rem;
+}
+
+.big-txt.title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.regular-txt {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.gray {
+    background-color: #f7f7f7;
+}
+
+.button {
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.primary {
+    background-color: #3788bf;
+    color: white;
+}
+
+.secondary {
+    background-color: #fff;
+    color: #444;
+}
+
+.section-1 .cta {
+    margin: 2rem 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+    width: 18%;
+    height: 150px;
+    
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+.card.red {
+    background-color: #ec454e;
+}
+
+.card.blue {
+    background-color: #42b0f8;
+}
+
+.card.purple {
+    background-color: #9e69d5;
+}
+
+.card.orange {
+    background-color: #F4A823;
+}
+
+.card.green {
+    background-color: #3cbfa1;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #3788bf;
+    margin-bottom: -1rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 3rem;
+    list-style-type: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p.copyright {
+    padding: 3rem 0;
+    font-size: 1rem;
+    text-align: center;
+
+    color: #ffffffdd;
+}
